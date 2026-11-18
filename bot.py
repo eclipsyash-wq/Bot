@@ -14,10 +14,10 @@ from telethon.errors import UserNotParticipantError
 from urllib.parse import urlparse, quote, urlunparse, unquote, parse_qs
 
 # ---------- CONFIG ----------
-SHOPI_API_URL = 'https://bhikari-production-bf277.up.railway.app/shopify'
+SHOPI_API_URL = 'http://5.83.134.41:8000/shopify?site={site}&cc={cc}&proxy={proxy}'
 API_ID = 32143521
 API_HASH = '273161fdfe0b9256e1baca74825672fb'
-BOT_TOKEN = '9233378299:AAH5XvR6xbWHriiGqqPbkVsoXbnKjc2ihU4'
+BOT_TOKEN = '9171313118:AAHLJ8i0XJs0F8dmmfFbA5otgxUTbBEL59Q'
 ADMIN_IDS = [8866006557]
 
 BOT_LINK = "https://t.me/BarkChk2Bot"
